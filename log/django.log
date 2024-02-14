@@ -1,0 +1,1195 @@
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 473
+"GET / HTTP/1.1" 200 473
+Успешный вход на страницу
+"GET /about/ HTTP/1.1" 200 417
+Успешный вход на страницу
+"GET /about/ HTTP/1.1" 200 417
+Успешный вход на страницу
+"GET /about/ HTTP/1.1" 200 417
+"GET / HTTP/1.1" 200 473
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 473
+Успешный вход на страницу
+"GET /about/ HTTP/1.1" 200 417
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 473
+"GET /info/1 HTTP/1.1" 301 0
+"GET /info/1/ HTTP/1.1" 200 69
+"GET /info/5 HTTP/1.1" 301 0
+"GET /info/5/ HTTP/1.1" 200 69
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /info/5/ HTTP/1.1" 200 130
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /info/5/ HTTP/1.1" 200 121
+"GET /info/5/ HTTP/1.1" 200 121
+"GET /info/5/ HTTP/1.1" 200 121
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /info/5/ HTTP/1.1" 200 23
+"GET /info/5/ HTTP/1.1" 200 23
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /info/5/ HTTP/1.1" 200 71
+Watching for file changes with StatReloader
+"GET /info/5/ HTTP/1.1" 200 94
+"GET /info/5/ HTTP/1.1" 200 94
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /info/5/
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 38, in info
+    f'{order.product.name}'
+       ^^^^^^^^^^^^^
+AttributeError: 'Order' object has no attribute 'product'
+"GET /info/5/ HTTP/1.1" 500 65357
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /info/1/ HTTP/1.1" 200 202
+"GET /info/1/ HTTP/1.1" 200 202
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /info/1/ HTTP/1.1" 200 206
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /info/1/ HTTP/1.1" 200 222
+"GET /info/1/ HTTP/1.1" 200 222
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /info/1/
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 37, in info
+    return HttpResponse(f'{order.customer.name} has Order{order.id}, total_sum is {order.id.get_total_price()}:<br>.'
+                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'get_total_price'
+"GET /info/1/ HTTP/1.1" 500 66107
+Internal Server Error: /info/1/
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 37, in info
+    return HttpResponse(f'{order.customer.name} has Order{order.id}, total_sum is {order.id.get_total_price()}:<br>.'
+                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'get_total_price'
+"GET /info/1/ HTTP/1.1" 500 66107
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /info/1/ HTTP/1.1" 200 222
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /info/1/ HTTP/1.1" 200 222
+"GET /info/1/ HTTP/1.1" 200 222
+"GET /info/1/ HTTP/1.1" 200 222
+"GET /info/1/ HTTP/1.1" 200 222
+"GET /info/1/ HTTP/1.1" 200 222
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /info/1/ HTTP/1.1" 200 222
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /info/1/
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 37, in info
+    total_price = order.get_total_price()
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\models.py", line 35, in get_total_price
+    for item in self.orderitem_set.all():
+                ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Order' object has no attribute 'orderitem_set'
+"GET /info/1/ HTTP/1.1" 500 69900
+Internal Server Error: /info/1/
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 37, in info
+    total_price = order.get_total_price()
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\models.py", line 35, in get_total_price
+    for item in self.orderitem_set.all():
+                ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Order' object has no attribute 'orderitem_set'
+"GET /info/1/ HTTP/1.1" 500 69900
+"GET / HTTP/1.1" 200 473
+Internal Server Error: /info/1/
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 37, in info
+    total_price = order.get_total_price()
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\models.py", line 35, in get_total_price
+    for item in self.orderitem_set.all():
+                ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Order' object has no attribute 'orderitem_set'
+"GET /info/1/ HTTP/1.1" 500 69896
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /info/1/ HTTP/1.1" 200 222
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /info/1/ HTTP/1.1" 200 94
+"GET /info/1/ HTTP/1.1" 200 94
+"GET /info/1/ HTTP/1.1" 200 94
+"GET /info/1/ HTTP/1.1" 200 94
+"GET /info/1/ HTTP/1.1" 200 94
+"GET /info/1/ HTTP/1.1" 200 94
+"GET /info/1/ HTTP/1.1" 200 94
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /info/1/ HTTP/1.1" 200 222
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 473
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2628
+"GET /info/1 HTTP/1.1" 301 0
+"GET /info/1/ HTTP/1.1" 200 222
+Watching for file changes with StatReloader
+"GET /info/1/ HTTP/1.1" 200 228
+"GET /info/1/ HTTP/1.1" 200 228
+"GET /info/2/ HTTP/1.1" 200 228
+"GET /info/5 HTTP/1.1" 301 0
+"GET /info/5/ HTTP/1.1" 200 228
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 473
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2837
+Internal Server Error: /customer/1
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 46, in show_customers_orders
+    return render(request, "web_app/customer.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /customer/1 HTTP/1.1" 500 133948
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /customer/1 HTTP/1.1" 200 296
+"GET /customer/1 HTTP/1.1" 200 296
+"GET /customer/1 HTTP/1.1" 200 194
+"GET /customer/1 HTTP/1.1" 200 194
+"GET /customer/1 HTTP/1.1" 200 204
+"GET /customer/1 HTTP/1.1" 200 204
+"GET /customer/1 HTTP/1.1" 200 248
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /customer/1
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 45, in show_customers_orders
+    products = OrderItem.objects.filter(order=orders)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1548, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1378, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\fields\related_lookups.py", line 158, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\lookups.py", line 358, in get_prep_lookup
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+"GET /customer/1 HTTP/1.1" 500 124682
+Internal Server Error: /customer/1
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 45, in show_customers_orders
+    products = OrderItem.objects.filter(order=orders)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1548, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1378, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\fields\related_lookups.py", line 158, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\lookups.py", line 358, in get_prep_lookup
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+"GET /customer/1 HTTP/1.1" 500 124545
+"GET / HTTP/1.1" 200 473
+"GET / HTTP/1.1" 200 473
+Internal Server Error: /customer/1
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 45, in show_customers_orders
+    products = OrderItem.objects.filter(order=orders)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1548, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1378, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\fields\related_lookups.py", line 158, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\lookups.py", line 358, in get_prep_lookup
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+"GET /customer/1 HTTP/1.1" 500 124545
+Internal Server Error: /customer/1
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 45, in show_customers_orders
+    products = orders.products
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1548, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1378, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\fields\related_lookups.py", line 158, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\lookups.py", line 358, in get_prep_lookup
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+"GET /customer/1 HTTP/1.1" 500 124636
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /customer/1
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 45, in show_customers_orders
+    products = orders.products
+               ^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'products'
+"GET /customer/1 HTTP/1.1" 500 66049
+Internal Server Error: /customer/1
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 45, in show_customers_orders
+    products = OrderItem.objects.filter(order=orders)
+               ^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'products'
+"GET /customer/1 HTTP/1.1" 500 66095
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /customer/1
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 45, in show_customers_orders
+    products = OrderItem.objects.filter(order=orders)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1548, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1378, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\fields\related_lookups.py", line 158, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\lookups.py", line 358, in get_prep_lookup
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+"GET /customer/1 HTTP/1.1" 500 124934
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /customer/1
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 45, in show_customers_orders
+    products = OrderItem.objects.filter(order=orders)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1548, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1378, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\fields\related_lookups.py", line 158, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\lookups.py", line 358, in get_prep_lookup
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+"GET /customer/1 HTTP/1.1" 500 124934
+Internal Server Error: /customer/1
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 45, in show_customers_orders
+    products = OrderItem.objects.filter(order=orders)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1548, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1378, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\fields\related_lookups.py", line 158, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\lookups.py", line 358, in get_prep_lookup
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+"GET /customer/1 HTTP/1.1" 500 124932
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 473
+Internal Server Error: /customer/1
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 45, in show_customers_orders
+    products = OrderItem.objects.filter(order=orders)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1548, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1378, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\fields\related_lookups.py", line 158, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\lookups.py", line 358, in get_prep_lookup
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+"GET /customer/1 HTTP/1.1" 500 124795
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /customer/1
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 45, in show_customers_orders
+    products = OrderItem.objects.filter(product=orders)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1521, in build_filter
+    self.check_related_objects(join_info.final_field, value, join_info.opts)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1330, in check_related_objects
+    raise ValueError(
+ValueError: Cannot use QuerySet for "Order": Use a QuerySet for "Product".
+"GET /customer/1 HTTP/1.1" 500 111049
+Internal Server Error: /customer/1
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 45, in show_customers_orders
+    #products = OrderItem.objects.filter(order=orders)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1521, in build_filter
+    self.check_related_objects(join_info.final_field, value, join_info.opts)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1330, in check_related_objects
+    raise ValueError(
+ValueError: Cannot use QuerySet for "Order": Use a QuerySet for "Product".
+"GET /customer/1 HTTP/1.1" 500 111045
+Internal Server Error: /customer/1
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 45, in show_customers_orders
+    #products = OrderItem.objects.filter(order=orders)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1602, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1634, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1521, in build_filter
+    self.check_related_objects(join_info.final_field, value, join_info.opts)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\db\models\sql\query.py", line 1330, in check_related_objects
+    raise ValueError(
+ValueError: Cannot use QuerySet for "Order": Use a QuerySet for "Product".
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /customer/1
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 48, in show_customers_orders
+    return render(request, "web_app/customer.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 15: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+"GET /customer/1 HTTP/1.1" 500 183094
+Internal Server Error: /customer/1
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 48, in show_customers_orders
+    return render(request, "web_app/customer.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 15: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+"GET /customer/1 HTTP/1.1" 500 183094
+"GET /customer/1 HTTP/1.1" 200 250
+"GET /customer/1 HTTP/1.1" 200 206
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 473
+Internal Server Error: /customer/1
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 52, in show_customers_orders
+    return render(request, "web_app/customer.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(order=order).quantity' from 'product.orderitem_set.get(order=order).quantity'
+"GET /customer/1 HTTP/1.1" 500 211311
+Internal Server Error: /customer/1
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 52, in show_customers_orders
+    return render(request, "web_app/customer.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\defaulttags.py", line 860, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(order=order).quantity' from 'product.orderitem_set.get(order=order).quantity'
+"GET /customer/1 HTTP/1.1" 500 210888
+"GET /customer/1 HTTP/1.1" 200 541
+"GET /customer/2 HTTP/1.1" 200 541
+"GET /customer/2 HTTP/1.1" 200 541
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /customer/2
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 62, in show_customers_orders
+    quantity = OrderItem.objects.filter(order=order, product=product).first().quantity
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'quantity'
+"GET /customer/2 HTTP/1.1" 500 67528
+Internal Server Error: /customer/2
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 62, in show_customers_orders
+    quantity = OrderItem.objects.filter(order=order, product=product).first().quantity
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'quantity'
+"GET /customer/2 HTTP/1.1" 500 67528
+Internal Server Error: /customer/2
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 62, in show_customers_orders
+    quantity = OrderItem.objects.filter(order=order, product=product).first().quantity
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'quantity'
+"GET /customer/2 HTTP/1.1" 500 67528
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /customer/2 HTTP/1.1" 200 541
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /customer/2 HTTP/1.1" 200 404
+"GET /customer/1 HTTP/1.1" 200 473
+"GET /customer/10 HTTP/1.1" 200 477
+"GET /customer/10 HTTP/1.1" 200 477
+"GET /customer/1 HTTP/1.1" 200 473
+"GET /customer/1 HTTP/1.1" 200 473
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /last_orders/1 HTTP/1.1" 200 473
+"GET /last_orders/1 HTTP/1.1" 200 473
+"GET /last_orders/1 HTTP/1.1" 200 473
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /last_orders/1
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py", line 68, in show_recent_orders
+    now = timezone.now()
+          ^^^^^^^^^^^^
+AttributeError: type object 'datetime.timezone' has no attribute 'now'
+"GET /last_orders/1 HTTP/1.1" 500 65980
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /last_orders/1 HTTP/1.1" 200 1096
+"GET /last_orders/2 HTTP/1.1" 200 667
+"GET /last_orders/3 HTTP/1.1" 200 742
+"GET /last_orders/9 HTTP/1.1" 200 747
+"GET /last_orders/10 HTTP/1.1" 200 928
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 473
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3046
+"GET /customer/1 HTTP/1.1" 200 473
+"GET /customer/1 HTTP/1.1" 200 473
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /last_orders/1 HTTP/1.1" 200 1096
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\LENOVO\Desktop\GeekBrains\HOMEWORK\homework_DJANGO\web_project\web_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /last_orders/8 HTTP/1.1" 200 671
